@@ -1,0 +1,3295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      SmartVyapaar - Stop Wasting 4+ Hours Daily on Manual Tasks | India's
+      Complete Business Automation Solution
+    </title>
+    <meta
+      name="description"
+      content="Transform your Indian SME from manual Excel chaos to AI-powered profits. Get your free automation assessment and save 25+ hours weekly. Starting from ₹1,00,000."
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body class="bg-background font-inter">
+    <!-- Navigation Header -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <!-- Logo -->
+          <div class="flex items-center">
+            <svg
+              class="h-8 w-8 text-primary mr-3"
+              viewBox="0 0 32 32"
+              fill="currentColor"
+            >
+              <path
+                d="M16 2L3 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-13-5z"
+              />
+              <path
+                d="M12 14l2 2 6-6"
+                stroke="white"
+                stroke-width="2"
+                fill="none"
+              />
+            </svg>
+            <span class="text-xl font-bold text-primary">SmartVyapaar</span>
+          </div>
+
+          <!-- Desktop Navigation -->
+          <div class="hidden md:flex items-center space-x-8">
+            <a
+              href="#solutions"
+              class="text-text-secondary hover:text-primary transition-smooth"
+              >Solutions</a
+            >
+            <a
+              href="#success-stories"
+              class="text-text-secondary hover:text-primary transition-smooth"
+              >Success Stories</a
+            >
+            <a
+              href="#pricing"
+              class="text-text-secondary hover:text-primary transition-smooth"
+              >Pricing</a
+            >
+            <a
+              href="#about"
+              class="text-text-secondary hover:text-primary transition-smooth"
+              >About</a
+            >
+            <button onclick="openWizard()" class="btn-primary">
+              Get Free Assessment
+            </button>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <div class="md:hidden">
+            <button
+              onclick="toggleMobileMenu()"
+              class="text-text-secondary hover:text-primary"
+            >
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobileMenu"
+        class="hidden md:hidden bg-white border-t border-border"
+      >
+        <div class="px-4 py-2 space-y-2">
+          <a
+            href="#solutions"
+            class="block py-2 text-text-secondary hover:text-primary"
+            >Solutions</a
+          >
+          <a
+            href="#success-stories"
+            class="block py-2 text-text-secondary hover:text-primary"
+            >Success Stories</a
+          >
+          <a
+            href="#pricing"
+            class="block py-2 text-text-secondary hover:text-primary"
+            >Pricing</a
+          >
+          <a
+            href="#about"
+            class="block py-2 text-text-secondary hover:text-primary"
+            >About</a
+          >
+          <button onclick="openWizard()" class="w-full mt-2 btn-primary">
+            Get Free Assessment
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="relative bg-gradient-to-br from-primary-50 to-accent-50 overflow-hidden"
+    >
+      <div class="absolute inset-0 bg-white opacity-50"></div>
+      <div
+        class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32"
+      >
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <!-- Hero Content -->
+          <div class="text-center lg:text-left">
+            <h1
+              class="text-4xl lg:text-6xl font-bold text-text-primary mb-6 leading-tight"
+            >
+              Stop Wasting <span class="text-accent">4+ Hours Daily</span> on
+              Manual Tasks
+            </h1>
+            <p class="text-xl text-text-secondary mb-8 leading-relaxed">
+              India's Complete Business Automation Solution - From Excel Chaos
+              to AI-Powered Profits. Transform your SME into a profitable,
+              automated enterprise.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div
+              class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12"
+            >
+              <button
+                onclick="openWizard()"
+                class="btn-primary text-lg px-8 py-4 cta-shadow"
+              >
+                Get Your Free Automation Assessment
+              </button>
+              <button
+                onclick="scrollToCaseStudies()"
+                class="bg-white text-primary border-2 border-primary hover:bg-primary-50 font-semibold px-8 py-4 rounded-lg transition-smooth"
+              >
+                See Success Stories
+              </button>
+            </div>
+
+            <!-- Trust Bar -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+              <div class="bg-white rounded-lg p-4 shadow-sm">
+                <div class="text-2xl font-bold text-primary">500+</div>
+                <div class="text-sm text-text-secondary">
+                  Indian SMEs Automated
+                </div>
+              </div>
+              <div class="bg-white rounded-lg p-4 shadow-sm">
+                <div class="text-2xl font-bold text-accent">25 Hours</div>
+                <div class="text-sm text-text-secondary">
+                  Average Weekly Savings
+                </div>
+              </div>
+              <div class="bg-white rounded-lg p-4 shadow-sm">
+                <div class="text-2xl font-bold text-success">New Delhi</div>
+                <div class="text-sm text-text-secondary">Based Expert Team</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Image -->
+          <div class="relative">
+            <img
+              src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3"
+              alt="Business automation dashboard"
+              class="rounded-2xl shadow-2xl w-full h-96 object-cover"
+              loading="lazy"
+              onerror="this.src='https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;"
+            />
+
+            <!-- Floating Notification -->
+            <div
+              class="absolute top-4 right-4 bg-white rounded-lg p-3 shadow-lg animate-pulse-slow"
+            >
+              <div class="flex items-center space-x-2">
+                <div class="w-2 h-2 bg-success rounded-full"></div>
+                <span class="text-sm font-medium"
+                  >Live: Rajesh saved 6 hours today</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem Agitation Section -->
+    <section class="py-20 bg-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-6">
+            Are You Drowning in <span class="text-error">Manual Work</span>?
+          </h2>
+          <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+            73% of Indian SMEs lose productivity to manual processes. See if
+            this sounds familiar...
+          </p>
+        </div>
+
+        <!-- Problem Visualization -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="bg-white rounded-xl p-6 shadow-sm text-center">
+            <div
+              class="w-16 h-16 bg-error-50 rounded-full flex items-center justify-center mx-auto mb-4"
+            >
+              <svg
+                class="w-8 h-8 text-error"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-text-primary mb-2">Excel Hell</h3>
+            <p class="text-text-secondary text-sm">
+              2+ hours daily updating spreadsheets, manual calculations, data
+              entry errors
+            </p>
+          </div>
+
+          <div class="bg-white rounded-xl p-6 shadow-sm text-center">
+            <div
+              class="w-16 h-16 bg-warning-50 rounded-full flex items-center justify-center mx-auto mb-4"
+            >
+              <svg
+                class="w-8 h-8 text-warning"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-text-primary mb-2">WhatsApp Chaos</h3>
+            <p class="text-text-secondary text-sm">
+              Lost orders, missed follow-ups, unorganized customer communication
+            </p>
+          </div>
+
+          <div class="bg-white rounded-xl p-6 shadow-sm text-center">
+            <div
+              class="w-16 h-16 bg-error-50 rounded-full flex items-center justify-center mx-auto mb-4"
+            >
+              <svg
+                class="w-8 h-8 text-error"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                <path
+                  fill-rule="evenodd"
+                  d="M4 5a2 2 0 012-2v1a1 1 0 102 0V3a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 2a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-text-primary mb-2">Manual Billing</h3>
+            <p class="text-text-secondary text-sm">
+              Time-consuming invoice creation, payment tracking, GST compliance
+              headaches
+            </p>
+          </div>
+
+          <div class="bg-white rounded-xl p-6 shadow-sm text-center">
+            <div
+              class="w-16 h-16 bg-warning-50 rounded-full flex items-center justify-center mx-auto mb-4"
+            >
+              <svg
+                class="w-8 h-8 text-warning"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-text-primary mb-2">HR Nightmares</h3>
+            <p class="text-text-secondary text-sm">
+              Attendance tracking, payroll calculations, leave management chaos
+            </p>
+          </div>
+        </div>
+
+        <!-- Time Waste Visualization -->
+        <div
+          class="mt-16 bg-gradient-to-r from-error-50 to-warning-50 rounded-2xl p-8"
+        >
+          <div class="text-center">
+            <h3 class="text-2xl font-bold text-text-primary mb-4">
+              Your Daily Time Breakdown
+            </h3>
+            <div class="flex justify-center items-center space-x-8 mb-6">
+              <div class="text-center">
+                <div class="text-4xl font-bold text-error">4.5 Hours</div>
+                <div class="text-text-secondary">Manual Tasks</div>
+              </div>
+              <div class="text-4xl text-text-muted">vs</div>
+              <div class="text-center">
+                <div class="text-4xl font-bold text-success">30 Minutes</div>
+                <div class="text-text-secondary">With Automation</div>
+              </div>
+            </div>
+            <p class="text-lg text-text-secondary">
+              That's
+              <span class="font-bold text-error">28 hours per week</span> you
+              could be spending on growing your business!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solution Overview Section -->
+    <section id="solutions" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-6">
+            Complete Business
+            <span class="text-gradient">Operating System</span>
+          </h2>
+          <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+            Transform chaos into clarity with our integrated automation platform
+            designed specifically for Indian SMEs
+          </p>
+        </div>
+
+        <!-- Before/After Toggle -->
+        <div class="mb-12">
+          <div class="flex justify-center">
+            <div class="bg-surface rounded-lg p-1 flex">
+              <button
+                onclick="showBefore()"
+                id="beforeBtn"
+                class="px-6 py-2 rounded-md font-medium transition-smooth bg-white text-primary shadow-sm"
+              >
+                Before (Manual)
+              </button>
+              <button
+                onclick="showAfter()"
+                id="afterBtn"
+                class="px-6 py-2 rounded-md font-medium transition-smooth text-text-secondary"
+              >
+                After (Automated)
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Before State -->
+        <div id="beforeState" class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="bg-error-50 border border-error-200 rounded-xl p-6">
+            <div
+              class="w-12 h-12 bg-error-100 rounded-lg flex items-center justify-center mb-4"
+            >
+              <svg
+                class="w-6 h-6 text-error"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-text-primary mb-2">Manual Billing</h3>
+            <p class="text-sm text-text-secondary">
+              Creating invoices in Excel, manual calculations, printing,
+              delivery
+            </p>
+            <div class="mt-3 text-error font-medium">⏱️ 2 hours daily</div>
+          </div>
+
+          <div class="bg-warning-50 border border-warning-200 rounded-xl p-6">
+            <div
+              class="w-12 h-12 bg-warning-100 rounded-lg flex items-center justify-center mb-4"
+            >
+              <svg
+                class="w-6 h-6 text-warning"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M8 4a4 4 0 100 8 4 4 0 000-8z" />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-text-primary mb-2">
+              WhatsApp Management
+            </h3>
+            <p class="text-sm text-text-secondary">
+              Juggling customer queries, order tracking, follow-ups manually
+            </p>
+            <div class="mt-3 text-warning font-medium">⏱️ 1.5 hours daily</div>
+          </div>
+
+          <div class="bg-error-50 border border-error-200 rounded-xl p-6">
+            <div
+              class="w-12 h-12 bg-error-100 rounded-lg flex items-center justify-center mb-4"
+            >
+              <svg
+                class="w-6 h-6 text-error"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-text-primary mb-2">HR Tasks</h3>
+            <p class="text-sm text-text-secondary">
+              Attendance sheets, salary calculations, leave tracking on paper
+            </p>
+            <div class="mt-3 text-error font-medium">⏱️ 1 hour daily</div>
+          </div>
+
+          <div class="bg-warning-50 border border-warning-200 rounded-xl p-6">
+            <div
+              class="w-12 h-12 bg-warning-100 rounded-lg flex items-center justify-center mb-4"
+            >
+              <svg
+                class="w-6 h-6 text-warning"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"
+                />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-text-primary mb-2">Sales Tracking</h3>
+            <p class="text-sm text-text-secondary">
+              Lead management in notebooks, no follow-up system, lost
+              opportunities
+            </p>
+            <div class="mt-3 text-warning font-medium">⏱️ 1 hour daily</div>
+          </div>
+        </div>
+
+        <!-- After State -->
+        <div
+          id="afterState"
+          class="hidden grid md:grid-cols-2 lg:grid-cols-4 gap-6"
+        >
+          <div class="bg-success-50 border border-success-200 rounded-xl p-6">
+            <div
+              class="w-12 h-12 bg-success-100 rounded-lg flex items-center justify-center mb-4"
+            >
+              <svg
+                class="w-6 h-6 text-success"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-text-primary mb-2">
+              Auto Billing System
+            </h3>
+            <p class="text-sm text-text-secondary">
+              Instant invoice generation, auto GST calculation, digital delivery
+            </p>
+            <div class="mt-3 text-success font-medium">⏱️ 5 minutes daily</div>
+          </div>
+
+          <div class="bg-primary-50 border border-primary-200 rounded-xl p-6">
+            <div
+              class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-4"
+            >
+              <svg
+                class="w-6 h-6 text-primary"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z"
+                />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-text-primary mb-2">
+              AI WhatsApp Bot
+            </h3>
+            <p class="text-sm text-text-secondary">
+              Auto-replies, order tracking, customer support, lead qualification
+            </p>
+            <div class="mt-3 text-primary font-medium">⏱️ 10 minutes daily</div>
+          </div>
+
+          <div class="bg-success-50 border border-success-200 rounded-xl p-6">
+            <div
+              class="w-12 h-12 bg-success-100 rounded-lg flex items-center justify-center mb-4"
+            >
+              <svg
+                class="w-6 h-6 text-success"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"
+                />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-text-primary mb-2">
+              Smart HR Portal
+            </h3>
+            <p class="text-sm text-text-secondary">
+              Biometric attendance, auto payroll, leave management, compliance
+            </p>
+            <div class="mt-3 text-success font-medium">⏱️ 5 minutes daily</div>
+          </div>
+
+          <div class="bg-primary-50 border border-primary-200 rounded-xl p-6">
+            <div
+              class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-4"
+            >
+              <svg
+                class="w-6 h-6 text-primary"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                <path
+                  fill-rule="evenodd"
+                  d="M4 5a2 2 0 012-2v1a1 1 0 102 0V3a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm8 0a2 2 0 012-2v1a1 1 0 102 0V3a2 2 0 012 2v6a2 2 0 01-2 2h-2a2 2 0 01-2-2V5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-text-primary mb-2">
+              AI Sales Funnel
+            </h3>
+            <p class="text-sm text-text-secondary">
+              Auto lead scoring, follow-up sequences, conversion tracking
+            </p>
+            <div class="mt-3 text-primary font-medium">⏱️ 10 minutes daily</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Benefits Section -->
+    <section class="py-20 bg-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-6">
+            Measurable <span class="text-accent">Business Impact</span>
+          </h2>
+          <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+            Real results from real Indian businesses. See what automation can do
+            for you.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Benefit 1 -->
+          <div
+            class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-smooth cursor-pointer"
+            onclick="toggleBenefit(1)"
+          >
+            <div
+              class="w-16 h-16 bg-accent-50 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
+              <svg
+                class="w-8 h-8 text-accent"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-text-primary text-center mb-4">
+              Eliminate 4+ Daily Hours
+            </h3>
+            <p class="text-text-secondary text-center mb-4">
+              Stop wasting time on repetitive tasks and focus on business growth
+            </p>
+            <div id="benefit1" class="hidden bg-accent-50 rounded-lg p-4 mt-4">
+              <ul class="text-sm text-text-secondary space-y-2">
+                <li>• Auto-generate invoices in seconds</li>
+                <li>• Eliminate manual data entry</li>
+                <li>• Automated customer follow-ups</li>
+                <li>• Smart inventory management</li>
+              </ul>
+            </div>
+            <div class="text-center mt-4">
+              <span class="text-2xl font-bold text-accent">28 Hours</span>
+              <span class="text-text-secondary"> saved weekly</span>
+            </div>
+          </div>
+
+          <!-- Benefit 2 -->
+          <div
+            class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-smooth cursor-pointer"
+            onclick="toggleBenefit(2)"
+          >
+            <div
+              class="w-16 h-16 bg-success-50 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
+              <svg
+                class="w-8 h-8 text-success"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-text-primary text-center mb-4">
+              Increase Profit Margins by 30%
+            </h3>
+            <p class="text-text-secondary text-center mb-4">
+              Reduce operational costs and increase revenue through efficiency
+            </p>
+            <div id="benefit2" class="hidden bg-success-50 rounded-lg p-4 mt-4">
+              <ul class="text-sm text-text-secondary space-y-2">
+                <li>• Reduce manual labor costs</li>
+                <li>• Eliminate billing errors</li>
+                <li>• Faster payment collection</li>
+                <li>• Optimized resource allocation</li>
+              </ul>
+            </div>
+            <div class="text-center mt-4">
+              <span class="text-2xl font-bold text-success">₹2.5L+</span>
+              <span class="text-text-secondary"> average annual savings</span>
+            </div>
+          </div>
+
+          <!-- Benefit 3 -->
+          <div
+            class="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-smooth cursor-pointer"
+            onclick="toggleBenefit(3)"
+          >
+            <div
+              class="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
+              <svg
+                class="w-8 h-8 text-primary"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-text-primary text-center mb-4">
+              Reduce Human Errors by 95%
+            </h3>
+            <p class="text-text-secondary text-center mb-4">
+              Eliminate costly mistakes with automated accuracy
+            </p>
+            <div id="benefit3" class="hidden bg-primary-50 rounded-lg p-4 mt-4">
+              <ul class="text-sm text-text-secondary space-y-2">
+                <li>• Automated calculations</li>
+                <li>• Data validation systems</li>
+                <li>• Error-proof workflows</li>
+                <li>• Quality control checks</li>
+              </ul>
+            </div>
+            <div class="text-center mt-4">
+              <span class="text-2xl font-bold text-primary">99.5%</span>
+              <span class="text-text-secondary"> accuracy rate</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Offerings Section -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-6">
+            Solutions for Every <span class="text-primary">Business Size</span>
+          </h2>
+          <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+            Tailored automation packages for companies with 2-100 employees
+          </p>
+        </div>
+
+        <!-- Interactive Calculator -->
+        <div
+          class="bg-gradient-to-r from-primary-50 to-accent-50 rounded-2xl p-8 mb-12"
+        >
+          <h3 class="text-2xl font-bold text-text-primary text-center mb-8">
+            Calculate Your Savings
+          </h3>
+          <div class="max-w-2xl mx-auto">
+            <div class="mb-6">
+              <label class="block text-sm font-medium text-text-primary mb-2"
+                >Number of Employees</label
+              >
+              <input
+                type="range"
+                id="employeeSlider"
+                min="2"
+                max="100"
+                value="10"
+                class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
+                oninput="updateCalculator()"
+              />
+              <div
+                class="flex justify-between text-sm text-text-secondary mt-1"
+              >
+                <span>2</span>
+                <span id="employeeCount">10</span>
+                <span>100</span>
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 text-center">
+              <div class="bg-white rounded-lg p-4">
+                <div class="text-2xl font-bold text-accent" id="monthlySavings">
+                  ₹45,000
+                </div>
+                <div class="text-sm text-text-secondary">Monthly Savings</div>
+              </div>
+              <div class="bg-white rounded-lg p-4">
+                <div class="text-2xl font-bold text-success" id="yearlySavings">
+                  ₹5.4L
+                </div>
+                <div class="text-sm text-text-secondary">Yearly Savings</div>
+              </div>
+              <div class="bg-white rounded-lg p-4">
+                <div class="text-2xl font-bold text-primary" id="timeSaved">
+                  280 Hours
+                </div>
+                <div class="text-sm text-text-secondary">
+                  Monthly Time Saved
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service Packages -->
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Starter Package -->
+          <div
+            class="bg-white border-2 border-border rounded-2xl p-8 hover:border-primary transition-smooth"
+          >
+            <div class="text-center mb-6">
+              <h3 class="text-xl font-bold text-text-primary mb-2">Starter</h3>
+              <p class="text-text-secondary">Perfect for 2-10 employees</p>
+              <div class="mt-4">
+                <span class="text-3xl font-bold text-primary">₹1,50,000</span>
+                <span class="text-text-secondary">/implementation</span>
+              </div>
+            </div>
+
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary"
+                  >Automated Billing System</span
+                >
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary">WhatsApp Integration</span>
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary">Basic HR Management</span>
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary">3 Months Support</span>
+              </li>
+            </ul>
+
+            <button
+              onclick="openWizard('starter')"
+              class="w-full btn-secondary"
+            >
+              Get Started
+            </button>
+          </div>
+
+          <!-- Professional Package -->
+          <div
+            class="bg-white border-2 border-accent rounded-2xl p-8 relative transform scale-105"
+          >
+            <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+              <span
+                class="bg-accent text-white px-4 py-1 rounded-full text-sm font-medium"
+                >Most Popular</span
+              >
+            </div>
+
+            <div class="text-center mb-6">
+              <h3 class="text-xl font-bold text-text-primary mb-2">
+                Professional
+              </h3>
+              <p class="text-text-secondary">Ideal for 11-50 employees</p>
+              <div class="mt-4">
+                <span class="text-3xl font-bold text-accent">₹3,50,000</span>
+                <span class="text-text-secondary">/implementation</span>
+              </div>
+            </div>
+
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary">Everything in Starter</span>
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary">AI Sales Funnel</span>
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary">Advanced Analytics</span>
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary">Inventory Management</span>
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary">6 Months Support</span>
+              </li>
+            </ul>
+
+            <button
+              onclick="openWizard('professional')"
+              class="w-full btn-primary"
+            >
+              Get Started
+            </button>
+          </div>
+
+          <!-- Enterprise Package -->
+          <div
+            class="bg-white border-2 border-border rounded-2xl p-8 hover:border-primary transition-smooth"
+          >
+            <div class="text-center mb-6">
+              <h3 class="text-xl font-bold text-text-primary mb-2">
+                Enterprise
+              </h3>
+              <p class="text-text-secondary">For 51-100 employees</p>
+              <div class="mt-4">
+                <span class="text-3xl font-bold text-primary">₹6,50,000</span>
+                <span class="text-text-secondary">/implementation</span>
+              </div>
+            </div>
+
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary"
+                  >Everything in Professional</span
+                >
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary">Custom AI Solutions</span>
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary">Multi-location Support</span>
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary"
+                  >Dedicated Account Manager</span
+                >
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary">12 Months Support</span>
+              </li>
+            </ul>
+
+            <button
+              onclick="openWizard('enterprise')"
+              class="w-full btn-secondary"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section id="success-stories" class="py-20 bg-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-6">
+            Success Stories from
+            <span class="text-success">Real Indian SMEs</span>
+          </h2>
+          <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+            See how businesses like yours transformed their operations and
+            increased profits
+          </p>
+        </div>
+
+        <!-- Testimonials Slider -->
+        <div class="relative mb-16">
+          <div id="testimonialSlider" class="overflow-hidden">
+            <div
+              class="flex transition-transform duration-500 ease-in-out"
+              id="testimonialTrack"
+            >
+              <!-- Testimonial 1 -->
+              <div class="w-full flex-shrink-0 px-4">
+                <div
+                  class="bg-white rounded-2xl p-8 testimonial-shadow max-w-4xl mx-auto"
+                >
+                  <div class="flex flex-col md:flex-row items-center gap-8">
+                    <img
+                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
+                      alt="Rajesh Kumar"
+                      class="w-24 h-24 rounded-full object-cover"
+                      loading="lazy"
+                      onerror="this.src='https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;"
+                    />
+                    <div class="flex-1 text-center md:text-left">
+                      <p class="text-lg text-text-secondary mb-4 italic">
+                        "SmartVyapaar transformed our textile business
+                        completely. We went from spending 5 hours daily on
+                        billing and inventory to just 30 minutes. Our profit
+                        margins increased by 35% in just 3 months!"
+                      </p>
+                      <div class="font-semibold text-text-primary">
+                        Rajesh Kumar
+                      </div>
+                      <div class="text-text-secondary">
+                        CEO, Kumar Textiles, Delhi
+                      </div>
+                      <div
+                        class="flex items-center justify-center md:justify-start mt-2"
+                      >
+                        <div class="flex text-yellow-400 mr-2">★★★★★</div>
+                        <span class="text-sm text-text-secondary"
+                          >Saved 28 hours/week</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial 2 -->
+              <div class="w-full flex-shrink-0 px-4">
+                <div
+                  class="bg-white rounded-2xl p-8 testimonial-shadow max-w-4xl mx-auto"
+                >
+                  <div class="flex flex-col md:flex-row items-center gap-8">
+                    <img
+                      src="https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
+                      alt="Priya Sharma"
+                      class="w-24 h-24 rounded-full object-cover"
+                      loading="lazy"
+                      onerror="this.src='https://images.pixabay.com/photo/2016/11/29/03/35/girl-1867092_1280.jpg'; this.onerror=null;"
+                    />
+                    <div class="flex-1 text-center md:text-left">
+                      <p class="text-lg text-text-secondary mb-4 italic">
+                        "The WhatsApp automation alone saved us 3 hours daily.
+                        Customer queries are handled instantly, and our sales
+                        team can focus on closing deals instead of answering
+                        basic questions."
+                      </p>
+                      <div class="font-semibold text-text-primary">
+                        Priya Sharma
+                      </div>
+                      <div class="text-text-secondary">
+                        Founder, Sharma Electronics, Mumbai
+                      </div>
+                      <div
+                        class="flex items-center justify-center md:justify-start mt-2"
+                      >
+                        <div class="flex text-yellow-400 mr-2">★★★★★</div>
+                        <span class="text-sm text-text-secondary"
+                          >40% increase in sales</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial 3 -->
+              <div class="w-full flex-shrink-0 px-4">
+                <div
+                  class="bg-white rounded-2xl p-8 testimonial-shadow max-w-4xl mx-auto"
+                >
+                  <div class="flex flex-col md:flex-row items-center gap-8">
+                    <img
+                      src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
+                      alt="Amit Patel"
+                      class="w-24 h-24 rounded-full object-cover"
+                      loading="lazy"
+                      onerror="this.src='https://images.pixabay.com/photo/2016/11/18/19/07/happy-1836445_1280.jpg'; this.onerror=null;"
+                    />
+                    <div class="flex-1 text-center md:text-left">
+                      <p class="text-lg text-text-secondary mb-4 italic">
+                        "Our manufacturing unit's efficiency doubled after
+                        implementing SmartVyapaar. The automated HR system
+                        eliminated payroll errors completely, and we save ₹2
+                        lakhs annually on administrative costs."
+                      </p>
+                      <div class="font-semibold text-text-primary">
+                        Amit Patel
+                      </div>
+                      <div class="text-text-secondary">
+                        MD, Patel Manufacturing, Bangalore
+                      </div>
+                      <div
+                        class="flex items-center justify-center md:justify-start mt-2"
+                      >
+                        <div class="flex text-yellow-400 mr-2">★★★★★</div>
+                        <span class="text-sm text-text-secondary"
+                          >₹2L annual savings</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider Controls -->
+          <button
+            onclick="previousTestimonial()"
+            class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-lg hover:shadow-xl transition-smooth"
+          >
+            <svg
+              class="w-6 h-6 text-text-secondary"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+          <button
+            onclick="nextTestimonial()"
+            class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-lg hover:shadow-xl transition-smooth"
+          >
+            <svg
+              class="w-6 h-6 text-text-secondary"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Client Logos -->
+        <div class="text-center mb-8">
+          <h3 class="text-xl font-semibold text-text-primary mb-8">
+            Trusted by 500+ Indian SMEs
+          </h3>
+          <div
+            class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center opacity-60"
+          >
+            <div class="bg-white rounded-lg p-4 shadow-sm">
+              <div class="text-center font-bold text-text-primary">
+                Kumar Textiles
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 shadow-sm">
+              <div class="text-center font-bold text-text-primary">
+                Sharma Electronics
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 shadow-sm">
+              <div class="text-center font-bold text-text-primary">
+                Patel Manufacturing
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 shadow-sm">
+              <div class="text-center font-bold text-text-primary">
+                Gupta Traders
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 shadow-sm">
+              <div class="text-center font-bold text-text-primary">
+                Singh Industries
+              </div>
+            </div>
+            <div class="bg-white rounded-lg p-4 shadow-sm">
+              <div class="text-center font-bold text-text-primary">
+                Agarwal Exports
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-6">
+            Transparent <span class="text-accent">Pricing</span>
+          </h2>
+          <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+            Complete business transformation starting from ₹1,00,000. No hidden
+            costs, guaranteed ROI.
+          </p>
+        </div>
+
+        <!-- Comparison Table -->
+        <div class="bg-surface rounded-2xl p-8 mb-12">
+          <h3 class="text-2xl font-bold text-text-primary text-center mb-8">
+            Manual vs Automated: The Real Cost
+          </h3>
+          <div class="overflow-x-auto">
+            <table class="w-full">
+              <thead>
+                <tr class="border-b border-border">
+                  <th
+                    class="text-left py-4 px-4 font-semibold text-text-primary"
+                  >
+                    Process
+                  </th>
+                  <th class="text-center py-4 px-4 font-semibold text-error">
+                    Manual Time
+                  </th>
+                  <th class="text-center py-4 px-4 font-semibold text-success">
+                    Automated Time
+                  </th>
+                  <th class="text-center py-4 px-4 font-semibold text-primary">
+                    Monthly Savings
+                  </th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border">
+                <tr>
+                  <td class="py-4 px-4 text-text-secondary">
+                    Invoice Generation
+                  </td>
+                  <td class="py-4 px-4 text-center text-error font-medium">
+                    2 hours/day
+                  </td>
+                  <td class="py-4 px-4 text-center text-success font-medium">
+                    5 minutes/day
+                  </td>
+                  <td class="py-4 px-4 text-center text-primary font-medium">
+                    58 hours
+                  </td>
+                </tr>
+                <tr>
+                  <td class="py-4 px-4 text-text-secondary">
+                    Customer Communication
+                  </td>
+                  <td class="py-4 px-4 text-center text-error font-medium">
+                    1.5 hours/day
+                  </td>
+                  <td class="py-4 px-4 text-center text-success font-medium">
+                    10 minutes/day
+                  </td>
+                  <td class="py-4 px-4 text-center text-primary font-medium">
+                    42 hours
+                  </td>
+                </tr>
+                <tr>
+                  <td class="py-4 px-4 text-text-secondary">HR Management</td>
+                  <td class="py-4 px-4 text-center text-error font-medium">
+                    1 hour/day
+                  </td>
+                  <td class="py-4 px-4 text-center text-success font-medium">
+                    5 minutes/day
+                  </td>
+                  <td class="py-4 px-4 text-center text-primary font-medium">
+                    28 hours
+                  </td>
+                </tr>
+                <tr>
+                  <td class="py-4 px-4 text-text-secondary">Sales Tracking</td>
+                  <td class="py-4 px-4 text-center text-error font-medium">
+                    1 hour/day
+                  </td>
+                  <td class="py-4 px-4 text-center text-success font-medium">
+                    10 minutes/day
+                  </td>
+                  <td class="py-4 px-4 text-center text-primary font-medium">
+                    28 hours
+                  </td>
+                </tr>
+                <tr class="bg-primary-50">
+                  <td class="py-4 px-4 font-bold text-text-primary">
+                    Total Monthly Savings
+                  </td>
+                  <td class="py-4 px-4 text-center font-bold text-error">
+                    140 hours
+                  </td>
+                  <td class="py-4 px-4 text-center font-bold text-success">
+                    12 hours
+                  </td>
+                  <td class="py-4 px-4 text-center font-bold text-primary">
+                    156 hours
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="text-center mt-8">
+            <div class="bg-white rounded-lg p-6 inline-block">
+              <div class="text-2xl font-bold text-success">₹3,90,000</div>
+              <div class="text-text-secondary">Average annual cost savings</div>
+              <div class="text-sm text-text-muted mt-1">
+                (Based on ₹2,500/hour operational cost)
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Risk Reversal Guarantee -->
+        <div
+          class="bg-gradient-to-r from-success-50 to-primary-50 rounded-2xl p-8 text-center"
+        >
+          <div class="max-w-3xl mx-auto">
+            <div
+              class="w-16 h-16 bg-success-100 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
+              <svg
+                class="w-8 h-8 text-success"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-text-primary mb-4">
+              Implementation Success Guarantee
+            </h3>
+            <p class="text-lg text-text-secondary mb-6">
+              We guarantee measurable results within 90 days or we'll refund
+              your implementation cost. That's how confident we are in our
+              solution.
+            </p>
+            <ul class="text-left max-w-2xl mx-auto space-y-2 mb-8">
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary"
+                  >Minimum 20 hours weekly time savings guaranteed</span
+                >
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary"
+                  >95% reduction in manual errors or money back</span
+                >
+              </li>
+              <li class="flex items-center">
+                <svg
+                  class="w-5 h-5 text-success mr-3"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="text-text-secondary"
+                  >Complete system deployment within 30 days</span
+                >
+              </li>
+            </ul>
+            <button
+              onclick="openWizard('guarantee')"
+              class="btn-primary text-lg px-8 py-4"
+            >
+              Claim Your Guarantee
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Urgency Section -->
+    <section
+      class="py-20 bg-gradient-to-r from-accent-500 to-primary-600 text-white"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl lg:text-4xl font-bold mb-6">
+          Limited Time: December 2025 Special Offer
+        </h2>
+        <p class="text-xl mb-8 opacity-90">
+          Only 15 consultation slots available this month. Book now and get FREE
+          WhatsApp integration worth ₹25,000
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-8 mb-12">
+          <div class="bg-white bg-opacity-20 rounded-lg p-6">
+            <div class="text-3xl font-bold mb-2" id="slotsLeft">12</div>
+            <div class="opacity-90">Slots Remaining</div>
+          </div>
+          <div class="bg-white bg-opacity-20 rounded-lg p-6">
+            <div class="text-3xl font-bold mb-2">₹25,000</div>
+            <div class="opacity-90">Free Integration</div>
+          </div>
+          <div class="bg-white bg-opacity-20 rounded-lg p-6">
+            <div class="text-3xl font-bold mb-2">48 Hours</div>
+            <div class="opacity-90">Response Time</div>
+          </div>
+        </div>
+
+        <button
+          onclick="openWizard('urgent')"
+          class="bg-white text-accent hover:bg-gray-100 font-bold text-lg px-12 py-4 rounded-lg transition-smooth shadow-lg"
+        >
+          Book Your Free Assessment Now
+        </button>
+
+        <p class="mt-4 text-sm opacity-75">
+          Offer expires December 31, 2025 or when slots are filled
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-surface">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-6">
+            Frequently Asked <span class="text-primary">Questions</span>
+          </h2>
+          <p class="text-xl text-text-secondary">
+            Get answers to common questions about business automation
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          <!-- FAQ 1 -->
+          <div class="bg-white rounded-lg shadow-sm">
+            <button
+              onclick="toggleFAQ(1)"
+              class="w-full text-left p-6 focus:outline-none"
+            >
+              <div class="flex justify-between items-center">
+                <h3 class="text-lg font-semibold text-text-primary">
+                  How long does implementation take?
+                </h3>
+                <svg
+                  id="faq1Icon"
+                  class="w-5 h-5 text-text-secondary transform transition-transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </div>
+            </button>
+            <div id="faq1" class="hidden px-6 pb-6">
+              <p class="text-text-secondary">
+                Complete implementation typically takes 2-4 weeks depending on
+                your business size and complexity. We follow a phased approach:
+                Week 1 - System setup and data migration, Week 2 - Integration
+                and testing, Week 3-4 - Training and go-live support.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="bg-white rounded-lg shadow-sm">
+            <button
+              onclick="toggleFAQ(2)"
+              class="w-full text-left p-6 focus:outline-none"
+            >
+              <div class="flex justify-between items-center">
+                <h3 class="text-lg font-semibold text-text-primary">
+                  What if my team isn't tech-savvy?
+                </h3>
+                <svg
+                  id="faq2Icon"
+                  class="w-5 h-5 text-text-secondary transform transition-transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </div>
+            </button>
+            <div id="faq2" class="hidden px-6 pb-6">
+              <p class="text-text-secondary">
+                Our systems are designed for non-technical users. We provide
+                comprehensive training in Hindi and English, create custom user
+                manuals, and offer 24/7 support. Most teams become proficient
+                within 3-5 days of training.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="bg-white rounded-lg shadow-sm">
+            <button
+              onclick="toggleFAQ(3)"
+              class="w-full text-left p-6 focus:outline-none"
+            >
+              <div class="flex justify-between items-center">
+                <h3 class="text-lg font-semibold text-text-primary">
+                  Is my business data secure?
+                </h3>
+                <svg
+                  id="faq3Icon"
+                  class="w-5 h-5 text-text-secondary transform transition-transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </div>
+            </button>
+            <div id="faq3" class="hidden px-6 pb-6">
+              <p class="text-text-secondary">
+                Absolutely. We use bank-grade encryption, regular security
+                audits, and comply with Indian data protection laws. Your data
+                is stored on secure Indian servers with daily backups and 99.9%
+                uptime guarantee.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="bg-white rounded-lg shadow-sm">
+            <button
+              onclick="toggleFAQ(4)"
+              class="w-full text-left p-6 focus:outline-none"
+            >
+              <div class="flex justify-between items-center">
+                <h3 class="text-lg font-semibold text-text-primary">
+                  What's the ROI timeline?
+                </h3>
+                <svg
+                  id="faq4Icon"
+                  class="w-5 h-5 text-text-secondary transform transition-transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </div>
+            </button>
+            <div id="faq4" class="hidden px-6 pb-6">
+              <p class="text-text-secondary">
+                Most clients see positive ROI within 3-6 months. Time savings
+                are immediate, while cost reductions and efficiency gains
+                compound over time. Average payback period is 8-12 months with
+                300%+ ROI in the first year.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="bg-white rounded-lg shadow-sm">
+            <button
+              onclick="toggleFAQ(5)"
+              class="w-full text-left p-6 focus:outline-none"
+            >
+              <div class="flex justify-between items-center">
+                <h3 class="text-lg font-semibold text-text-primary">
+                  Can I customize the solution for my industry?
+                </h3>
+                <svg
+                  id="faq5Icon"
+                  class="w-5 h-5 text-text-secondary transform transition-transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </div>
+            </button>
+            <div id="faq5" class="hidden px-6 pb-6">
+              <p class="text-text-secondary">
+                Yes, every solution is customized for your specific industry and
+                business needs. We have experience across manufacturing, retail,
+                services, trading, and more. Our team analyzes your workflows
+                and creates tailored automation solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-6">
+              Why Choose <span class="text-primary">SmartVyapaar</span>?
+            </h2>
+            <p class="text-lg text-text-secondary mb-8">
+              Based in New Delhi, we're India's leading business automation
+              specialists with deep understanding of SME challenges and local
+              business practices.
+            </p>
+
+            <div class="space-y-6">
+              <div class="flex items-start">
+                <div
+                  class="w-12 h-12 bg-primary-50 rounded-lg flex items-center justify-center mr-4 flex-shrink-0"
+                >
+                  <svg
+                    class="w-6 h-6 text-primary"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-text-primary mb-2">
+                    500+ Successful Implementations
+                  </h3>
+                  <p class="text-text-secondary">
+                    Proven track record across diverse Indian industries
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start">
+                <div
+                  class="w-12 h-12 bg-accent-50 rounded-lg flex items-center justify-center mr-4 flex-shrink-0"
+                >
+                  <svg
+                    class="w-6 h-6 text-accent"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-text-primary mb-2">
+                    Local Expert Team
+                  </h3>
+                  <p class="text-text-secondary">
+                    Delhi-based team understanding Indian business culture
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start">
+                <div
+                  class="w-12 h-12 bg-success-50 rounded-lg flex items-center justify-center mr-4 flex-shrink-0"
+                >
+                  <svg
+                    class="w-6 h-6 text-success"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-text-primary mb-2">
+                    Guaranteed Results
+                  </h3>
+                  <p class="text-text-secondary">
+                    Money-back guarantee if you don't see promised results
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative">
+            <img
+              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3"
+              alt="SmartVyapaar team"
+              class="rounded-2xl shadow-2xl w-full h-96 object-cover"
+              loading="lazy"
+              onerror="this.src='https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;"
+            />
+
+            <!-- Stats Overlay -->
+            <div class="absolute bottom-6 left-6 right-6">
+              <div class="bg-white rounded-lg p-4 shadow-lg">
+                <div class="grid grid-cols-3 gap-4 text-center">
+                  <div>
+                    <div class="text-xl font-bold text-primary">98%</div>
+                    <div class="text-xs text-text-secondary">
+                      Client Satisfaction
+                    </div>
+                  </div>
+                  <div>
+                    <div class="text-xl font-bold text-success">25+</div>
+                    <div class="text-xs text-text-secondary">
+                      Hours Saved Weekly
+                    </div>
+                  </div>
+                  <div>
+                    <div class="text-xl font-bold text-accent">₹3.9L</div>
+                    <div class="text-xs text-text-secondary">
+                      Avg Annual Savings
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Case Studies Showcase -->
+    <section id="case-studies" class="py-20 bg-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-6">
+            Real Success Stories from
+            <span class="text-success">Indian SMEs</span>
+          </h2>
+          <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+            Discover how businesses like yours transformed their operations and
+            achieved remarkable results
+          </p>
+        </div>
+
+        <!-- Case Study Tabs -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <!-- Tab Navigation -->
+          <div class="border-b border-border">
+            <nav class="flex flex-wrap">
+              <button
+                onclick="showCaseStudy('manufacturing')"
+                id="tab-manufacturing"
+                class="case-study-tab px-6 py-4 text-sm font-medium text-center border-b-2 border-primary text-primary bg-primary-50 flex-1 sm:flex-none"
+              >
+                Manufacturing
+              </button>
+              <button
+                onclick="showCaseStudy('retail')"
+                id="tab-retail"
+                class="case-study-tab px-6 py-4 text-sm font-medium text-center border-b-2 border-transparent text-text-secondary hover:text-text-primary hover:border-gray-300 flex-1 sm:flex-none"
+              >
+                Retail
+              </button>
+              <button
+                onclick="showCaseStudy('services')"
+                id="tab-services"
+                class="case-study-tab px-6 py-4 text-sm font-medium text-center border-b-2 border-transparent text-text-secondary hover:text-text-primary hover:border-gray-300 flex-1 sm:flex-none"
+              >
+                Services
+              </button>
+              <button
+                onclick="showCaseStudy('trading')"
+                id="tab-trading"
+                class="case-study-tab px-6 py-4 text-sm font-medium text-center border-b-2 border-transparent text-text-secondary hover:text-text-primary hover:border-gray-300 flex-1 sm:flex-none"
+              >
+                Trading
+              </button>
+            </nav>
+          </div>
+
+          <!-- Manufacturing Case Study -->
+          <div id="case-manufacturing" class="case-study-content p-8">
+            <div class="grid lg:grid-cols-2 gap-8 items-center">
+              <div>
+                <div class="flex items-center mb-4">
+                  <img
+                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
+                    alt="Amit Patel"
+                    class="w-16 h-16 rounded-full object-cover mr-4"
+                    loading="lazy"
+                    onerror="this.src='https://images.pixabay.com/photo/2016/11/18/19/07/happy-1836445_1280.jpg'; this.onerror=null;"
+                  />
+                  <div>
+                    <h3 class="text-xl font-bold text-text-primary">
+                      Patel Manufacturing
+                    </h3>
+                    <p class="text-text-secondary">
+                      Amit Patel, Managing Director
+                    </p>
+                    <p class="text-sm text-text-muted">
+                      Bangalore • 45 employees
+                    </p>
+                  </div>
+                </div>
+
+                <blockquote class="text-lg text-text-secondary italic mb-6">
+                  "Our manufacturing unit's efficiency doubled after
+                  implementing SmartVyapaar. The automated HR system eliminated
+                  payroll errors completely, and we save ₹2 lakhs annually on
+                  administrative costs."
+                </blockquote>
+
+                <div class="space-y-4">
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-success rounded-full mr-3"></div>
+                    <span class="text-text-secondary"
+                      ><strong>Challenge:</strong> Manual payroll calculations
+                      taking 2 days monthly</span
+                    >
+                  </div>
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-primary rounded-full mr-3"></div>
+                    <span class="text-text-secondary"
+                      ><strong>Solution:</strong> Automated HR system with
+                      biometric integration</span
+                    >
+                  </div>
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-accent rounded-full mr-3"></div>
+                    <span class="text-text-secondary"
+                      ><strong>Result:</strong> 100% payroll accuracy, ₹2L
+                      annual savings</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="bg-gradient-to-br from-success-50 to-primary-50 rounded-xl p-6"
+              >
+                <h4 class="text-lg font-bold text-text-primary mb-4">
+                  Key Metrics
+                </h4>
+                <div class="grid grid-cols-2 gap-4">
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-success">100%</div>
+                    <div class="text-sm text-text-secondary">
+                      Payroll Accuracy
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-primary">48 Hours</div>
+                    <div class="text-sm text-text-secondary">
+                      Monthly Time Saved
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-accent">₹2L</div>
+                    <div class="text-sm text-text-secondary">
+                      Annual Savings
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-success">6 Months</div>
+                    <div class="text-sm text-text-secondary">ROI Period</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Retail Case Study -->
+          <div id="case-retail" class="case-study-content p-8 hidden">
+            <div class="grid lg:grid-cols-2 gap-8 items-center">
+              <div>
+                <div class="flex items-center mb-4">
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
+                    alt="Priya Sharma"
+                    class="w-16 h-16 rounded-full object-cover mr-4"
+                    loading="lazy"
+                    onerror="this.src='https://images.pixabay.com/photo/2016/11/29/03/35/girl-1867092_1280.jpg'; this.onerror=null;"
+                  />
+                  <div>
+                    <h3 class="text-xl font-bold text-text-primary">
+                      Sharma Electronics
+                    </h3>
+                    <p class="text-text-secondary">Priya Sharma, Founder</p>
+                    <p class="text-sm text-text-muted">Mumbai • 25 employees</p>
+                  </div>
+                </div>
+
+                <blockquote class="text-lg text-text-secondary italic mb-6">
+                  "The WhatsApp automation alone saved us 3 hours daily.
+                  Customer queries are handled instantly, and our sales team can
+                  focus on closing deals instead of answering basic questions."
+                </blockquote>
+
+                <div class="space-y-4">
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-success rounded-full mr-3"></div>
+                    <span class="text-text-secondary"
+                      ><strong>Challenge:</strong> 200+ daily WhatsApp queries
+                      overwhelming sales team</span
+                    >
+                  </div>
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-primary rounded-full mr-3"></div>
+                    <span class="text-text-secondary"
+                      ><strong>Solution:</strong> AI WhatsApp bot with product
+                      catalog integration</span
+                    >
+                  </div>
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-accent rounded-full mr-3"></div>
+                    <span class="text-text-secondary"
+                      ><strong>Result:</strong> 40% sales increase, 3 hours
+                      daily savings</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="bg-gradient-to-br from-primary-50 to-accent-50 rounded-xl p-6"
+              >
+                <h4 class="text-lg font-bold text-text-primary mb-4">
+                  Key Metrics
+                </h4>
+                <div class="grid grid-cols-2 gap-4">
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-primary">40%</div>
+                    <div class="text-sm text-text-secondary">
+                      Sales Increase
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-success">90 Hours</div>
+                    <div class="text-sm text-text-secondary">
+                      Monthly Time Saved
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-accent">85%</div>
+                    <div class="text-sm text-text-secondary">
+                      Query Automation
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-primary">4 Months</div>
+                    <div class="text-sm text-text-secondary">ROI Period</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services Case Study -->
+          <div id="case-services" class="case-study-content p-8 hidden">
+            <div class="grid lg:grid-cols-2 gap-8 items-center">
+              <div>
+                <div class="flex items-center mb-4">
+                  <img
+                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
+                    alt="Suresh Gupta"
+                    class="w-16 h-16 rounded-full object-cover mr-4"
+                    loading="lazy"
+                    onerror="this.src='https://images.pixabay.com/photo/2014/02/27/16/09/man-275134_1280.jpg'; this.onerror=null;"
+                  />
+                  <div>
+                    <h3 class="text-xl font-bold text-text-primary">
+                      Gupta Consulting Services
+                    </h3>
+                    <p class="text-text-secondary">Suresh Gupta, CEO</p>
+                    <p class="text-sm text-text-muted">Delhi • 15 employees</p>
+                  </div>
+                </div>
+
+                <blockquote class="text-lg text-text-secondary italic mb-6">
+                  "The automated billing system transformed our cash flow. We
+                  now get paid 50% faster, and our team spends zero time on
+                  invoice creation. Client satisfaction improved significantly."
+                </blockquote>
+
+                <div class="space-y-4">
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-success rounded-full mr-3"></div>
+                    <span class="text-text-secondary"
+                      ><strong>Challenge:</strong> Manual invoicing causing
+                      45-day payment delays</span
+                    >
+                  </div>
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-primary rounded-full mr-3"></div>
+                    <span class="text-text-secondary"
+                      ><strong>Solution:</strong> Automated billing with payment
+                      gateway integration</span
+                    >
+                  </div>
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-accent rounded-full mr-3"></div>
+                    <span class="text-text-secondary"
+                      ><strong>Result:</strong> 50% faster payments, improved
+                      cash flow</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="bg-gradient-to-br from-accent-50 to-success-50 rounded-xl p-6"
+              >
+                <h4 class="text-lg font-bold text-text-primary mb-4">
+                  Key Metrics
+                </h4>
+                <div class="grid grid-cols-2 gap-4">
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-accent">50%</div>
+                    <div class="text-sm text-text-secondary">
+                      Faster Payments
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-success">30 Hours</div>
+                    <div class="text-sm text-text-secondary">
+                      Monthly Time Saved
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-primary">₹1.5L</div>
+                    <div class="text-sm text-text-secondary">
+                      Annual Savings
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-accent">3 Months</div>
+                    <div class="text-sm text-text-secondary">ROI Period</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Trading Case Study -->
+          <div id="case-trading" class="case-study-content p-8 hidden">
+            <div class="grid lg:grid-cols-2 gap-8 items-center">
+              <div>
+                <div class="flex items-center mb-4">
+                  <img
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
+                    alt="Rajesh Kumar"
+                    class="w-16 h-16 rounded-full object-cover mr-4"
+                    loading="lazy"
+                    onerror="this.src='https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;"
+                  />
+                  <div>
+                    <h3 class="text-xl font-bold text-text-primary">
+                      Kumar Textiles Trading
+                    </h3>
+                    <p class="text-text-secondary">Rajesh Kumar, CEO</p>
+                    <p class="text-sm text-text-muted">Delhi • 35 employees</p>
+                  </div>
+                </div>
+
+                <blockquote class="text-lg text-text-secondary italic mb-6">
+                  "SmartVyapaar transformed our textile trading business
+                  completely. We went from spending 5 hours daily on billing and
+                  inventory to just 30 minutes. Our profit margins increased by
+                  35% in just 3 months!"
+                </blockquote>
+
+                <div class="space-y-4">
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-success rounded-full mr-3"></div>
+                    <span class="text-text-secondary"
+                      ><strong>Challenge:</strong> Complex inventory tracking
+                      across 1000+ SKUs</span
+                    >
+                  </div>
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-primary rounded-full mr-3"></div>
+                    <span class="text-text-secondary"
+                      ><strong>Solution:</strong> Integrated inventory & billing
+                      automation</span
+                    >
+                  </div>
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-accent rounded-full mr-3"></div>
+                    <span class="text-text-secondary"
+                      ><strong>Result:</strong> 35% profit increase, 4.5 hours
+                      daily savings</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="bg-gradient-to-br from-success-50 to-primary-50 rounded-xl p-6"
+              >
+                <h4 class="text-lg font-bold text-text-primary mb-4">
+                  Key Metrics
+                </h4>
+                <div class="grid grid-cols-2 gap-4">
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-success">35%</div>
+                    <div class="text-sm text-text-secondary">
+                      Profit Increase
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-primary">140 Hours</div>
+                    <div class="text-sm text-text-secondary">
+                      Monthly Time Saved
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-accent">₹3L</div>
+                    <div class="text-sm text-text-secondary">
+                      Annual Savings
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-2xl font-bold text-success">3 Months</div>
+                    <div class="text-sm text-text-secondary">ROI Period</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="text-center mt-12">
+          <p class="text-lg text-text-secondary mb-6">
+            Ready to create your own success story?
+          </p>
+          <button
+            onclick="openWizard('case-studies')"
+            class="btn-primary text-lg px-8 py-4"
+          >
+            Get Your Free Assessment
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section
+      class="py-20 bg-gradient-to-r from-primary-600 to-accent-600 text-white"
+    >
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl lg:text-5xl font-bold mb-6">
+          Ready to Transform Your Business?
+        </h2>
+        <p class="text-xl mb-8 opacity-90">
+          Join 500+ Indian SMEs who've eliminated manual work and increased
+          profits with SmartVyapaar
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+          <button
+            onclick="openWizard('final')"
+            class="bg-white text-primary hover:bg-gray-100 font-bold text-lg px-12 py-4 rounded-lg transition-smooth shadow-lg"
+          >
+            Get Your Free Assessment
+          </button>
+          <a
+            href="https://wa.me/919876543210"
+            target="_blank"
+            class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary font-bold text-lg px-12 py-4 rounded-lg transition-smooth"
+          >
+            WhatsApp Us Now
+          </a>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8 text-center">
+          <div>
+            <div class="text-2xl font-bold mb-2">Free</div>
+            <div class="opacity-90">Initial Consultation</div>
+          </div>
+          <div>
+            <div class="text-2xl font-bold mb-2">30 Days</div>
+            <div class="opacity-90">Implementation</div>
+          </div>
+          <div>
+            <div class="text-2xl font-bold mb-2">Guaranteed</div>
+            <div class="opacity-90">Results</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-text-primary text-white py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8">
+          <!-- Company Info -->
+          <div>
+            <div class="flex items-center mb-4">
+              <svg
+                class="h-8 w-8 text-accent mr-3"
+                viewBox="0 0 32 32"
+                fill="currentColor"
+              >
+                <path
+                  d="M16 2L3 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-13-5z"
+                />
+                <path
+                  d="M12 14l2 2 6-6"
+                  stroke="white"
+                  stroke-width="2"
+                  fill="none"
+                />
+              </svg>
+              <span class="text-xl font-bold">SmartVyapaar</span>
+            </div>
+            <p class="text-gray-300 mb-4">
+              India's complete business automation solution for SMEs. Transform
+              manual work into automated profits.
+            </p>
+            <div class="text-gray-300">
+              <div class="mb-2">📍 New Delhi, India</div>
+              <div class="mb-2">📞 +91 98765 43210</div>
+              <div>✉️ hello@smartvyapaar.com</div>
+            </div>
+          </div>
+
+          <!-- Solutions -->
+          <div>
+            <h3 class="font-semibold mb-4">Solutions</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>
+                <a href="#solutions" class="hover:text-accent transition-smooth"
+                  >Billing Automation</a
+                >
+              </li>
+              <li>
+                <a href="#solutions" class="hover:text-accent transition-smooth"
+                  >WhatsApp Integration</a
+                >
+              </li>
+              <li>
+                <a href="#solutions" class="hover:text-accent transition-smooth"
+                  >HR Management</a
+                >
+              </li>
+              <li>
+                <a href="#solutions" class="hover:text-accent transition-smooth"
+                  >Sales Funnel</a
+                >
+              </li>
+              <li>
+                <a href="#solutions" class="hover:text-accent transition-smooth"
+                  >AI Workflows</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Company -->
+          <div>
+            <h3 class="font-semibold mb-4">Company</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>
+                <a href="#about" class="hover:text-accent transition-smooth"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#success-stories"
+                  class="hover:text-accent transition-smooth"
+                  >Success Stories</a
+                >
+              </li>
+              <li>
+                <a href="#pricing" class="hover:text-accent transition-smooth"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  class="hover:text-accent transition-smooth"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  class="hover:text-accent transition-smooth"
+                  >Careers</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Support -->
+          <div>
+            <h3 class="font-semibold mb-4">Support</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  class="hover:text-accent transition-smooth"
+                  >Help Center</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  class="hover:text-accent transition-smooth"
+                  >Documentation</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  class="hover:text-accent transition-smooth"
+                  >Training</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  class="hover:text-accent transition-smooth"
+                  >Contact Support</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0)"
+                  class="hover:text-accent transition-smooth"
+                  >System Status</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300"
+        >
+          <p>
+            &copy; 2025 SmartVyapaar. All Rights Reserved. | Privacy Policy |
+            Terms of Service
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Fresh 3-Step Wizard Modal -->
+    <div
+      id="wizardModal"
+      class="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex items-center justify-center p-4"
+    >
+      <div
+        class="bg-white rounded-2xl max-w-2xl w-full max-h-screen overflow-y-auto shadow-2xl"
+      >
+        <!-- Modal Header -->
+        <div class="p-6 border-b border-gray-200">
+          <div class="flex justify-between items-center">
+            <h2 class="text-2xl font-bold text-gray-900">
+              Get Your Free Automation Assessment
+            </h2>
+            <button
+              onclick="closeWizard()"
+              class="text-gray-500 hover:text-gray-700 transition-colors"
+            >
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+          </div>
+          <p class="text-gray-600 mt-2">
+            Discover how much time and money you can save with automation
+          </p>
+        </div>
+
+        <!-- Progress Indicator -->
+        <div class="px-6 pt-4">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-sm text-gray-600"
+              >Step <span id="stepNumber">1</span> of 3</span
+            >
+            <span class="text-sm text-gray-600"
+              ><span id="progressText">33</span>% Complete</span
+            >
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2">
+            <div
+              id="progressIndicator"
+              class="bg-blue-600 h-2 rounded-full transition-all duration-300"
+              style="width: 33%"
+            ></div>
+          </div>
+        </div>
+
+        <!-- Step 1: Personal Information -->
+        <div id="wizardStep1" class="p-6">
+          <h3 class="text-xl font-semibold text-gray-900 mb-6">
+            Tell us about yourself
+          </h3>
+          <div class="space-y-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Full Name *</label
+              >
+              <input
+                type="text"
+                id="userName"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Company Name *</label
+              >
+              <input
+                type="text"
+                id="companyName"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                placeholder="Enter your company name"
+                required
+              />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Phone Number *</label
+              >
+              <input
+                type="tel"
+                id="userPhone"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                placeholder="+91 98765 43210"
+                required
+              />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Email Address *</label
+              >
+              <input
+                type="email"
+                id="userEmail"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                placeholder="your@email.com"
+                required
+              />
+            </div>
+          </div>
+          <div class="flex justify-end mt-6">
+            <button
+              onclick="goToStep(2)"
+              class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Next Step
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 2: Business Information -->
+        <div id="wizardStep2" class="hidden p-6">
+          <h3 class="text-xl font-semibold text-gray-900 mb-6">
+            About your business
+          </h3>
+          <div class="space-y-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Industry *</label
+              >
+              <select
+                id="businessIndustry"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                required
+              >
+                <option value="">Select your industry</option>
+                <option value="manufacturing">Manufacturing</option>
+                <option value="retail">Retail</option>
+                <option value="services">Services</option>
+                <option value="trading">Trading</option>
+                <option value="textiles">Textiles</option>
+                <option value="electronics">Electronics</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Number of Employees *</label
+              >
+              <select
+                id="teamSize"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                required
+              >
+                <option value="">Select employee count</option>
+                <option value="2-10">2-10 employees</option>
+                <option value="11-25">11-25 employees</option>
+                <option value="26-50">26-50 employees</option>
+                <option value="51-100">51-100 employees</option>
+                <option value="100+">100+ employees</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Current Challenges (Select all that apply)</label
+              >
+              <div class="space-y-2">
+                <label class="flex items-center">
+                  <input
+                    type="checkbox"
+                    name="challenges"
+                    value="manual-billing"
+                    class="mr-3 text-blue-600"
+                  />
+                  <span class="text-gray-700"
+                    >Manual billing and invoicing</span
+                  >
+                </label>
+                <label class="flex items-center">
+                  <input
+                    type="checkbox"
+                    name="challenges"
+                    value="whatsapp-management"
+                    class="mr-3 text-blue-600"
+                  />
+                  <span class="text-gray-700"
+                    >WhatsApp customer management</span
+                  >
+                </label>
+                <label class="flex items-center">
+                  <input
+                    type="checkbox"
+                    name="challenges"
+                    value="hr-tasks"
+                    class="mr-3 text-blue-600"
+                  />
+                  <span class="text-gray-700">HR and payroll tasks</span>
+                </label>
+                <label class="flex items-center">
+                  <input
+                    type="checkbox"
+                    name="challenges"
+                    value="sales-tracking"
+                    class="mr-3 text-blue-600"
+                  />
+                  <span class="text-gray-700">Sales and lead tracking</span>
+                </label>
+                <label class="flex items-center">
+                  <input
+                    type="checkbox"
+                    name="challenges"
+                    value="inventory"
+                    class="mr-3 text-blue-600"
+                  />
+                  <span class="text-gray-700">Inventory management</span>
+                </label>
+              </div>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Daily Time Spent on Manual Tasks</label
+              >
+              <select
+                id="manualTime"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              >
+                <option value="">Select time range</option>
+                <option value="1-2">1-2 hours</option>
+                <option value="3-4">3-4 hours</option>
+                <option value="5-6">5-6 hours</option>
+                <option value="7+">7+ hours</option>
+              </select>
+            </div>
+          </div>
+          <div class="flex justify-between mt-6">
+            <button
+              onclick="goToStep(1)"
+              class="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-300 transition-colors"
+            >
+              Previous
+            </button>
+            <button
+              onclick="goToStep(3)"
+              class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Next Step
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 3: Schedule Consultation -->
+        <div id="wizardStep3" class="hidden p-6">
+          <h3 class="text-xl font-semibold text-gray-900 mb-6">
+            Schedule your free consultation
+          </h3>
+          <div class="space-y-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Preferred Date *</label
+              >
+              <input
+                type="date"
+                id="meetingDate"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                min="2025-01-18"
+                required
+              />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Preferred Time *</label
+              >
+              <select
+                id="meetingTime"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                required
+              >
+                <option value="">Select time slot</option>
+                <option value="10:00">10:00 AM - 11:00 AM</option>
+                <option value="11:00">11:00 AM - 12:00 PM</option>
+                <option value="14:00">2:00 PM - 3:00 PM</option>
+                <option value="15:00">3:00 PM - 4:00 PM</option>
+                <option value="16:00">4:00 PM - 5:00 PM</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Budget Range</label
+              >
+              <select
+                id="projectBudget"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              >
+                <option value="">Select budget range</option>
+                <option value="1-2">₹1-2 Lakhs</option>
+                <option value="2-5">₹2-5 Lakhs</option>
+                <option value="5-10">₹5-10 Lakhs</option>
+                <option value="10+">₹10+ Lakhs</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2"
+                >Additional Comments</label
+              >
+              <textarea
+                id="additionalNotes"
+                rows="3"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                placeholder="Any specific requirements or questions?"
+              ></textarea>
+            </div>
+          </div>
+          <div class="flex justify-between mt-6">
+            <button
+              onclick="goToStep(2)"
+              class="bg-gray-200 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-300 transition-colors"
+            >
+              Previous
+            </button>
+            <button
+              onclick="submitWizardForm()"
+              class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors"
+            >
+              Book Free Assessment
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <div class="fixed bottom-6 right-6 z-40">
+      <a
+        href="https://wa.me/919876543210"
+        target="_blank"
+        class="bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center"
+      >
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.106"
+          />
+        </svg>
+        <span class="ml-2 hidden sm:block">Chat with us</span>
+      </a>
+    </div>
+
+    <script>
+      // Mobile menu toggle
+      function toggleMobileMenu() {
+        const menu = document.getElementById("mobileMenu");
+        menu.classList.toggle("hidden");
+      }
+
+      // Before/After toggle
+      function showBefore() {
+        document.getElementById("beforeState").classList.remove("hidden");
+        document.getElementById("afterState").classList.add("hidden");
+        document
+          .getElementById("beforeBtn")
+          .classList.add("bg-white", "text-primary", "shadow-sm");
+        document
+          .getElementById("beforeBtn")
+          .classList.remove("text-text-secondary");
+        document
+          .getElementById("afterBtn")
+          .classList.remove("bg-white", "text-primary", "shadow-sm");
+        document
+          .getElementById("afterBtn")
+          .classList.add("text-text-secondary");
+      }
+
+      function showAfter() {
+        document.getElementById("beforeState").classList.add("hidden");
+        document.getElementById("afterState").classList.remove("hidden");
+        document
+          .getElementById("afterBtn")
+          .classList.add("bg-white", "text-primary", "shadow-sm");
+        document
+          .getElementById("afterBtn")
+          .classList.remove("text-text-secondary");
+        document
+          .getElementById("beforeBtn")
+          .classList.remove("bg-white", "text-primary", "shadow-sm");
+        document.getElementById("beforeBtn").addClass("text-text-secondary");
+      }
+
+      // Benefits toggle
+      function toggleBenefit(num) {
+        const benefit = document.getElementById(`benefit${num}`);
+        benefit.classList.toggle("hidden");
+      }
+
+      // Calculator update
+      function updateCalculator() {
+        const employees = document.getElementById("employeeSlider").value;
+        document.getElementById("employeeCount").textContent = employees;
+
+        const monthlySavings = employees * 4500;
+        const yearlySavings = monthlySavings * 12;
+        const timeSaved = employees * 28;
+
+        document.getElementById("monthlySavings").textContent = `₹${(
+          monthlySavings / 1000
+        ).toFixed(0)}K`;
+        document.getElementById("yearlySavings").textContent = `₹${(
+          yearlySavings / 100000
+        ).toFixed(1)}L`;
+        document.getElementById("timeSaved").textContent = `${timeSaved} Hours`;
+      }
+
+      // Case Studies Functions
+      function showCaseStudy(industry) {
+        // Hide all case study contents
+        const contents = document.querySelectorAll(".case-study-content");
+        contents.forEach((content) => content.classList.add("hidden"));
+
+        // Remove active state from all tabs
+        const tabs = document.querySelectorAll(".case-study-tab");
+        tabs.forEach((tab) => {
+          tab.classList.remove(
+            "border-primary",
+            "text-primary",
+            "bg-primary-50"
+          );
+          tab.classList.add("border-transparent", "text-text-secondary");
+        });
+
+        // Show selected case study
+        document.getElementById(`case-${industry}`).classList.remove("hidden");
+
+        // Activate selected tab
+        const activeTab = document.getElementById(`tab-${industry}`);
+        activeTab.classList.remove("border-transparent", "text-text-secondary");
+        activeTab.classList.add(
+          "border-primary",
+          "text-primary",
+          "bg-primary-50"
+        );
+      }
+
+      // Scroll to Case Studies function
+      function scrollToCaseStudies() {
+        const caseStudiesSection = document.getElementById("case-studies");
+        if (caseStudiesSection) {
+          caseStudiesSection.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }
+      }
+
+      // Testimonial slider
+      let currentTestimonial = 0;
+      const totalTestimonials = 3;
+
+      function nextTestimonial() {
+        currentTestimonial = (currentTestimonial + 1) % totalTestimonials;
+        updateTestimonialSlider();
+      }
+
+      function previousTestimonial() {
+        currentTestimonial =
+          (currentTestimonial - 1 + totalTestimonials) % totalTestimonials;
+        updateTestimonialSlider();
+      }
+
+      function updateTestimonialSlider() {
+        const track = document.getElementById("testimonialTrack");
+        track.style.transform = `translateX(-${currentTestimonial * 100}%)`;
+      }
+
+      // Auto-advance testimonials
+      setInterval(nextTestimonial, 5000);
+
+      // FAQ toggle
+      function toggleFAQ(num) {
+        const faq = document.getElementById(`faq${num}`);
+        const icon = document.getElementById(`faq${num}Icon`);
+
+        faq.classList.toggle("hidden");
+        icon.classList.toggle("rotate-180");
+      }
+
+      // Lead modal functions
+      // Fresh 3-Step Wizard Modal JavaScript
+      let currentStep = 1;
+      let wizardData = {};
+
+      function openWizard(source = "") {
+        document.getElementById("wizardModal").classList.remove("hidden");
+        document.body.style.overflow = "hidden";
+
+        if (source) {
+          wizardData.source = source;
+          console.log("Wizard opened from:", source);
+        }
+      }
+
+      function closeWizard() {
+        document.getElementById("wizardModal").classList.add("hidden");
+        document.body.style.overflow = "auto";
+        resetWizard();
+      }
+
+      function goToStep(stepNumber) {
+        // Validate current step before proceeding
+        if (stepNumber > currentStep && !validateStep(currentStep)) {
+          return;
+        }
+
+        // Store current step data
+        storeStepData(currentStep);
+
+        // Hide current step
+        document
+          .getElementById(`wizardStep${currentStep}`)
+          .classList.add("hidden");
+
+        // Show target step
+        currentStep = stepNumber;
+        document
+          .getElementById(`wizardStep${currentStep}`)
+          .classList.remove("hidden");
+
+        // Update progress
+        updateWizardProgress();
+      }
+
+      function updateWizardProgress() {
+        const progress = (currentStep / 3) * 100;
+        document.getElementById("stepNumber").textContent = currentStep;
+        document.getElementById("progressText").textContent =
+          Math.round(progress);
+        document.getElementById(
+          "progressIndicator"
+        ).style.width = `${progress}%`;
+      }
+
+      function validateStep(step) {
+        if (step === 1) {
+          const name = document.getElementById("userName").value.trim();
+          const company = document.getElementById("companyName").value.trim();
+          const phone = document.getElementById("userPhone").value.trim();
+          const email = document.getElementById("userEmail").value.trim();
+
+          if (!name || !company || !phone || !email) {
+            alert("Please fill in all required fields");
+            return false;
+          }
+
+          // Email validation
+          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          if (!emailRegex.test(email)) {
+            alert("Please enter a valid email address");
+            return false;
+          }
+
+          return true;
+        } else if (step === 2) {
+          const industry = document.getElementById("businessIndustry").value;
+          const teamSize = document.getElementById("teamSize").value;
+
+          if (!industry) {
+            alert("Please select your industry");
+            return false;
+          }
+
+          if (!teamSize) {
+            alert("Please select the number of employees");
+            return false;
+          }
+
+          return true;
+        } else if (step === 3) {
+          const date = document.getElementById("meetingDate").value;
+          const time = document.getElementById("meetingTime").value;
+
+          if (!date) {
+            alert("Please select your preferred consultation date");
+            return false;
+          }
+
+          if (!time) {
+            alert("Please select your preferred consultation time");
+            return false;
+          }
+
+          return true;
+        }
+        return true;
+      }
+
+      function storeStepData(step) {
+        if (step === 1) {
+          wizardData.personalInfo = {
+            name: document.getElementById("userName").value.trim(),
+            company: document.getElementById("companyName").value.trim(),
+            phone: document.getElementById("userPhone").value.trim(),
+            email: document.getElementById("userEmail").value.trim(),
+          };
+        } else if (step === 2) {
+          // Get selected challenges
+          const selectedChallenges = [];
+          document
+            .querySelectorAll('input[name="challenges"]:checked')
+            .forEach((checkbox) => {
+              selectedChallenges.push(checkbox.value);
+            });
+
+          wizardData.businessInfo = {
+            industry: document.getElementById("businessIndustry").value,
+            teamSize: document.getElementById("teamSize").value,
+            challenges: selectedChallenges,
+            manualTime: document.getElementById("manualTime").value,
+          };
+        } else if (step === 3) {
+          wizardData.consultationInfo = {
+            date: document.getElementById("meetingDate").value,
+            time: document.getElementById("meetingTime").value,
+            budget: document.getElementById("projectBudget").value,
+            notes: document.getElementById("additionalNotes").value.trim(),
+          };
+        }
+      }
+
+      function submitWizardForm() {
+        if (!validateStep(3)) {
+          return;
+        }
+
+        // Store final step data
+        storeStepData(3);
+
+        // Add submission timestamp
+        wizardData.submittedAt = new Date().toISOString();
+
+        console.log("Complete wizard data:", wizardData);
+
+        // Output the JSON format for backend submission
+        console.log("JSON format for backend submission:");
+        console.log(JSON.stringify(wizardData, null, 2));
+
+        // Submit to backend
+        submitToBackend(wizardData);
+      }
+
+      async function submitToBackend(data) {
+        // Get button reference and store original text outside try block
+        const submitBtn = document.querySelector(
+          "#wizardStep3 button[onclick='submitWizardForm()']"
+        );
+        const originalText = submitBtn ? submitBtn.textContent : "Book Free Assessment";
+        
+        try {
+          // Show loading state
+          if (submitBtn) {
+            submitBtn.textContent = "Submitting...";
+            submitBtn.disabled = true;
+          }
+
+          // Replace with your actual backend URL
+          const BACKEND_URL = "https://eo3l1ehu6a3vxtl.m.pipedream.net";
+
+          console.log("Submitting to backend:", BACKEND_URL);
+          console.log("Data payload:", JSON.stringify(data, null, 2));
+
+          const response = await fetch(BACKEND_URL, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Accept: "application/json",
+            },
+            body: JSON.stringify(data),
+          });
+
+          console.log("Server response status:", response.status);
+          console.log("Server response headers:", Object.fromEntries(response.headers.entries()));
+
+          if (!response.ok) {
+            const errorText = await response.text();
+            console.error("Server error response:", errorText);
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+
+          // Check if response is JSON or plain text
+          const contentType = response.headers.get("content-type");
+          let result;
+          
+          if (contentType && contentType.includes("application/json")) {
+            result = await response.json();
+            console.log("Server response data (JSON):", result);
+            console.log("Server response (formatted):", JSON.stringify(result, null, 2));
+          } else {
+            result = await response.text();
+            console.log("Server response data (Text):", result);
+          }
+
+          // Show success message
+          alert(
+            "Thank you! Your free automation assessment has been scheduled. We will contact you within 24 hours to confirm your appointment."
+          );
+
+          // Close modal and reset
+          closeWizard();
+        } catch (error) {
+          console.error("Error submitting form:", error);
+
+          if (
+            error.message.includes("Failed to fetch") ||
+            error.message.includes("HTTP error")
+          ) {
+            alert(
+              "Unable to connect to our servers. Please try again later or contact us directly at +91 98765 43210."
+            );
+          } else {
+            alert(
+              "There was an error submitting your form. Please try again or contact us directly."
+            );
+          }
+        } finally {
+          // Reset button state
+          if (submitBtn) {
+            submitBtn.textContent = originalText;
+            submitBtn.disabled = false;
+          }
+        }
+      }
+
+      function resetWizard() {
+        currentStep = 1;
+        wizardData = {};
+
+        // Show step 1, hide others
+        document.getElementById("wizardStep1").classList.remove("hidden");
+        document.getElementById("wizardStep2").classList.add("hidden");
+        document.getElementById("wizardStep3").classList.add("hidden");
+
+        // Reset progress
+        updateWizardProgress();
+
+        // Clear all form fields
+        document
+          .querySelectorAll(
+            "#wizardModal input, #wizardModal select, #wizardModal textarea"
+          )
+          .forEach((field) => {
+            if (field.type === "checkbox") {
+              field.checked = false;
+            } else {
+              field.value = "";
+            }
+          });
+      }
+
+      // Video modal functions (removed - no longer needed)
+      function openVideoModal() {
+        // Redirect to case studies instead
+        scrollToCaseStudies();
+      }
+
+      function closeVideoModal() {
+        // No longer needed but keeping for compatibility
+      }
+
+      // Update slots counter
+      function updateSlotsCounter() {
+        const slotsElement = document.getElementById("slotsLeft");
+        let slots = parseInt(slotsElement.textContent);
+        if (slots > 8) {
+          slots = Math.max(8, slots - Math.floor(Math.random() * 2));
+          slotsElement.textContent = slots;
+        }
+      }
+
+      // Update slots every 30 seconds
+      setInterval(updateSlotsCounter, 30000);
+
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Close modals on escape key
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") {
+          closeLeadModal();
+        }
+      });
+
+      // Close modal when clicking outside
+      const wizardModal = document.getElementById("wizardModal");
+      if (wizardModal) {
+        wizardModal.addEventListener("click", function (e) {
+          if (e.target === this) {
+            closeWizard();
+          }
+        });
+      }
+
+      // Initialize calculator
+      updateCalculator();
+    </script>
+  </body>
+</html>
