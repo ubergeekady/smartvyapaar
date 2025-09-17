@@ -4,6 +4,76 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
+/* Custom animations for success step */
+@keyframes bounce {
+  0%, 20%, 53%, 80%, 100% {
+    transform: translate3d(0,0,0);
+  }
+  40%, 43% {
+    transform: translate3d(0, -30px, 0);
+  }
+  70% {
+    transform: translate3d(0, -15px, 0);
+  }
+  90% {
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1s ease-in-out;
+}
+
+/* Success step specific styles */
+.success-checkmark {
+  animation: bounce 1s ease-in-out, pulse 2s infinite 1s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Button styles to ensure visibility */
+.bg-blue-600 {
+  background-color: #2563eb !important;
+}
+
+.bg-blue-700 {
+  background-color: #1d4ed8 !important;
+}
+
+.bg-green-600 {
+  background-color: #16a34a !important;
+}
+
+.bg-green-700 {
+  background-color: #15803d !important;
+}
+
+.bg-gray-200 {
+  background-color: #e5e7eb !important;
+}
+
+.bg-gray-300 {
+  background-color: #d1d5db !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.text-gray-700 {
+  color: #374151 !important;
+}
+
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
